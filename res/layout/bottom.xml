@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/bottom_bar"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_weixin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <ImageButton 
+            android:id="@+id/id_tab_weinxin_img"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:clickable="false"
+            android:src="@drawable/tab_weixin_pressed"
+            android:background="#000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="微信"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_frd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <ImageButton 
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:clickable="false"
+            android:src="@drawable/tab_find_frd_normal"
+            android:background="#000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="朋友"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_address"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <ImageButton 
+            android:id="@+id/id_tab_address_img"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:clickable="false"
+            android:src="@drawable/tab_address_normal"
+            android:background="#000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="发现"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/id_tab_settings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <ImageButton 
+            android:id="@+id/id_tab_settings_img"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:clickable="false"
+            android:src="@drawable/tab_settings_normal"
+            android:background="#000000"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="我"/>
+    </LinearLayout>
+
+
+</LinearLayout>
